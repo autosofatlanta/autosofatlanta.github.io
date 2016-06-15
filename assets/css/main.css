@@ -16,7 +16,6 @@ header {
 #main-post-wrapper {
   width: 100vw;
   height: 600px;
-  background: url("../img/IMG_2670-compressor.png");
   background-position: center;
   background-size: cover;
 }
@@ -67,10 +66,9 @@ header {
   width: 90%;
   max-width: 1024px;
   height: 750px;
-  background: url("../img/mini-test_copy.jpg");
   background-size: cover;
   background-position: center center;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 .post-title-card-wrapper {
   position: relative;
@@ -110,7 +108,18 @@ header {
   text-shadow: none;
   color: #333;
 }
+/* Footer */
+footer {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
 /* Post Page */
 #post-header {
   color: #333;
+}
+.lazy .post-image {
+  width: 1296px;
+  height: 864px;
 }

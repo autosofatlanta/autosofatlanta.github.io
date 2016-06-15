@@ -81,7 +81,7 @@ header h1 {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: #333;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -231,15 +231,15 @@ header h1 {
   position: relative;
   margin-left: 60px;
   background: white;
-  border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  border: 2px solid #333;
 }
 .cd-timeline-content:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .cd-timeline-content h2 {
   color: #303e49;
 }
@@ -273,14 +273,7 @@ header h1 {
   opacity: .7;
 }
 .cd-timeline-content::before {
-  content: '';
-  position: absolute;
-  top: 16px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid white;
+
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
