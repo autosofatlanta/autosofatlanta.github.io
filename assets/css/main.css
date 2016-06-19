@@ -13,7 +13,10 @@ header {
     font-size: 24px;
     padding: 20px;
 }
-
+a {
+  color: inherit;
+  text-decoration: none;
+}
 #main-post-wrapper {
   width: 100vw;
   height: 600px;
@@ -144,7 +147,8 @@ footer {
   margin: 40px auto;
 }
 p {
-  width: 800px;
+  width: 90%;
+  max-width: 800px;
   margin: 15px auto;
   line-height: 1.6em;
   font-size: 14px;
